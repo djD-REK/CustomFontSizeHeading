@@ -32,7 +32,7 @@ describe("The Block", () => {
       // Force Aphrodite to output the CSS-in-JS styles in time to test them:
       flushToStyleTag()
       const h1Element = wrapper.find("h1").at(0)
-      const pElement = wrapper.find("div").at(0)
+      const pElement = wrapper.find("p").at(0)
       // Make sure our CSS-in-JS decorator successfully injected the CSS class
       expect(h1Element.hasClass(/heading_(\w+)/)).toBe(true)
       expect(pElement.hasClass(/text_(\w+)/)).toBe(true)
@@ -70,7 +70,7 @@ describe("The Block", () => {
       // Force Aphrodite to output the CSS-in-JS styles in time to test them:
       flushToStyleTag()
       const h1Element = wrapper.find("h1").at(0)
-      const pElement = wrapper.find("div").at(0)
+      const pElement = wrapper.find("p").at(0)
       // Make sure our CSS-in-JS decorator successfully injected the CSS class
       expect(h1Element.hasClass(/heading_(\w+)/)).toBe(true)
       expect(pElement.hasClass(/text_(\w+)/)).toBe(true)

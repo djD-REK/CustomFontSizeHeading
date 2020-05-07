@@ -8,7 +8,7 @@ const Block = (props) => {
   return (
     <React.Fragment>
       <h1 className={css(classes.heading)}>{props.heading}</h1>
-      <div className={css(classes.text)}>{props.text}</div>
+      <p className={css(classes.text)}>{props.text}</p>
     </React.Fragment>
   )
 }
