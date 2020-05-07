@@ -7,8 +7,8 @@ const Block = (props) => {
   const classes = StyleSheet.create(getStyles(props))
   return (
     <React.Fragment>
-      <h1 className={css(classes.customBlockHeading)}>{props.heading}</h1>
-      <p className={css(classes.customBlockHeading)}></p>
+      <h1 className={css(classes.heading)}>{props.heading}</h1>
+      <p className={css(classes.text)}>{props.text}</p>
     </React.Fragment>
   )
 }

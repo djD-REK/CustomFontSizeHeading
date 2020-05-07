@@ -29,7 +29,9 @@ describe("The Block", () => {
     it("should render the block using the custom data", () => {
       const customHeading = "Custom Block Heading"
       const customText = "Custom Block Text"
-      const wrapper = mount(<Block {...props} text={customText} />)
+      const wrapper = mount(
+        <Block {...props} heading={customHeading} text={customText} />
+      )
       expect(wrapper.text()).toBe(customHeading + customText)
     })
   })
