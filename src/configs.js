@@ -14,8 +14,12 @@ export const configSchema = {
     type: ElementPropTypes.string,
   },
   textFontSizeNumber: {
-    label: "Heading font size (in pixels)",
+    label: "Heading font size (numeric)",
     type: ElementPropTypes.number,
+  },
+  cssLengthUnit: {
+    label: "CSS length unit for text font size",
+    type: ElementPropTypes.string,
   },
 }
 
@@ -24,4 +28,5 @@ export const defaultConfig = {
   headingFontSizeString: "2em",
   text: "Custom text",
   textFontSizeNumber: 24,
+  cssLengthUnit: "px",
 }

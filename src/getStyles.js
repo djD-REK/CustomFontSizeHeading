@@ -1,5 +1,8 @@
-export const getStyles = ({ headingFontSizeString, textFontSizeNumber }) => {
-  const cssLengthUnit = "px"
+export const getStyles = ({
+  headingFontSizeString,
+  textFontSizeNumber,
+  cssLengthUnit,
+}) => {
   return {
     heading: {
       fontSize: headingFontSizeString,

@@ -2,9 +2,10 @@ const tenantId = "$YOUR_TENANT_ID"
 
 const localEnvPropOverrides = {
   heading: "Local prop for heading",
-  headingFontSizeString: "2em",
+  headingFontSizeString: "4em",
   text: "Local prop for text",
-  textFontSizeNumber: 24,
+  textFontSizeNumber: 8,
+  cssLengthUnit: "em",
 }
 
 const dataUtils = {
