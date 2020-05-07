@@ -4,7 +4,7 @@ const localEnvPropOverrides = {
   heading: "Local prop for heading",
   headingFontSizeString: "4em",
   text: "Local prop for text",
-  textFontSizeNumber: 8,
+  textFontSizeNumber: 3,
   cssLengthUnit: "em",
 }
 
